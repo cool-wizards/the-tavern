@@ -16,3 +16,8 @@ img {
     display: block;
     margin: auto;
 }
+#login {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+}
