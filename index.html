@@ -1,24 +1,39 @@
 <!DOCTYPE html>
 <html>
-    <head>
-<title>Welcome to the Tavern</title>
-<link rel="shortcut icon" href="hat_favicon.ico" type="image/x-icon">
-<link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
 
-<h1>Welcome to the Tavern</h1>
-<p>Take a seat wherever you can find one</p>
-<br>
-<div id="login">
-<form action="/action_page.php">
-    Email:<br>
-    <input type="text" name="firstname" value="example@test.com"><br>
-    Password:<br>
-    <input type="text" name="lastname" value="password"><br><br>
-    <input type="submit" value="Submit">
-  </form>
-</div>
-  <img src="barkeep.png" alt="Barkeep">
+<head>
+    <title>Welcome to the Tavern</title>
+    <link rel="shortcut icon" href="hat_favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1>Welcome to the Tavern</h1>
+
+    <br>
+    <div id="login">
+        <form action="/action_page.php" form id="loginForm">
+            Email:
+            <br>
+            <input type="text" name="firstname" value="example@test.com">
+            <br> Password:
+            <br>
+            <input type="password" name="lastname" value="password">
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+            <input type="button" onclick="myFunction()" value="Clear">
+        </form>
+        <br>
+    </div>
+    <img src="barkeep.png" alt="Barkeep">
+    <p>"Take a seat wherever you can find one..."</p>
+    <script>
+        function myFunction() {
+            document.getElementById("loginForm").reset();
+        }
+    </script>
 </body>
+
 </html>
