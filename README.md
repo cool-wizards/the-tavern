@@ -1,19 +1,18 @@
 # the-tavern
-Random character generator
-Calendar
-Discord
-Drive
-Timeline of "scenes"
-Dynamic character sheet
-Slots! (4 of 5 slots)
-Type of game: in-person, online, hybrid
-Version? Pathfinder, etc....
-Descrip of campaign setting, campaign itself
-Special rules: ....
-Who's the DM
-Where it happens
-Leave a game
-DM: can archive a game
-Place where PC can take notes
-Sockets/Firebase
-"Group loot" tab
+# Features:
+# Campaign Description 
+(Setting, Game, DM, # of PCs, # of sessions, description, where)
+# Timeline of Campaign
+# Available PC Slots (4 of 5 PCs)
+# Ability to join/leave a game
+# DM can archive a game.
+# Group loot tab (Interest, holding, value, body slot, description)
+# Group PC notes tab
+
+# Future State
+# Random Character Generator
+# Calendar (Sync with Google Calendar?)
+# Discord (API?)
+# Drive (Sync with Google Drive?)
+# Dynamic character sheets
+# Sockets/Firebase for Gdoc-like environment.
